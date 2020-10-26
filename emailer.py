@@ -1,6 +1,7 @@
 import smtplib, ssl
 from email.message import EmailMessage
 
+#Will eventually be able to be used as a decorator
 class ProgressEmail():
     def __init__(self, sender, recipient, subject, password):
         '''Init method requires sender and recipient email address, the email subject
